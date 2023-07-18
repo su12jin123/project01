@@ -1,0 +1,879 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Perpetua';
+    src: url('font/Perpetua.eot');
+    src: url('font/Perpetua.eot?#iefix') format('embedded-opentype'),
+        url('font/Perpetua.woff2') format('woff2'),
+        url('font/Perpetua.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Perpetua';
+    src: url('font/Perpetua.eot');
+    src: url('font/Perpetua.eot?#iefix') format('embedded-opentype'),
+        url('font/Perpetua.woff2') format('woff2'),
+        url('font/Perpetua.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Perpetua';
+    src: url('font/Perpetua-Bold.eot');
+    src: url('font/Perpetua-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/Perpetua-Bold.woff2') format('woff2'),
+        url('font/Perpetua-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Perpetua';
+    src: url('font/Perpetua-Bold.eot');
+    src: url('font/Perpetua-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/Perpetua-Bold.woff2') format('woff2'),
+        url('font/Perpetua-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Perpetua';
+    src: url('font/Perpetua.eot');
+    src: url('font/Perpetua.eot?#iefix') format('embedded-opentype'),
+        url('font/Perpetua.woff2') format('woff2'),
+        url('font/Perpetua.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Martel:wght@200;300;400;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    color: #333;
+    line-height: 1;
+
+}
+
+.main_visual {
+   
+    background: url(../img/bg.jpg)center center / cover no-repeat;
+    width: 1920px;
+    height: 100vh;
+
+}
+
+.main_visual .inner {
+    width: 1440px;
+    margin: 0 auto
+}
+
+.main_visual header {
+    height: 80px;
+    position: relative;
+    
+
+}
+
+.main_visual header .rogo {
+    position: absolute;
+    top: 42px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-family: 'Perpetua';
+    
+    
+}
+
+.main_visual header .rogo h1 {
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.main_visual header .rogo h3 {
+    font-size: 20px;
+    padding: 5px 13px;
+    text-align: center;
+    
+    font-weight: bold;
+}
+
+.main_visual header .login {
+    position: absolute;
+    right: 0;
+    top: 54px;
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+}
+
+
+.main_visual header .login ul li {
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+.rooms .inner .box .plus{
+    display: flex;
+}
+
+
+
+/* +---------------------------버거아이콘----------------------------------- */
+
+/* +---------------------------버거아이콘----------------------------------- */
+
+
+
+.main_visual .booking {
+    height: 100px;
+    width: 1440px;
+    margin: 700px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: relative;
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+
+}
+
+.main_visual .booking .day {
+    width: 640px;
+    /* background-color: antiquewhite; */
+    height: 100px;
+
+    padding: 22px 40px 20px 40px;
+    position: relative;
+}
+
+.main_visual .booking .checkin {
+    display: inline-block
+}
+
+.main_visual .booking .checkin p {
+    font-size: 14px;
+    margin-bottom: 18px;
+    color: #A68164;
+}
+
+.main_visual .booking .checkin strong {
+    font-size: 22px;
+    font-weight: 800;
+
+}
+
+.main_visual .booking .checkin span {
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    top: 60px;
+    left: 170px;
+  
+}
+
+.main_visual .booking .moon {
+    position: absolute;
+    top: 26px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main_visual .booking .moon p {
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translate(-38%, 10%);
+    color: #fff;
+    width: 25px;
+    font-size:15px ;
+}
+
+.main_visual .booking .checkout {
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    right: 40px;
+
+}
+
+
+
+
+.main_visual .booking .checkout p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-left: 102px;
+    color: #A68164;
+}
+
+.main_visual .booking .checkout strong {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.main_visual .booking .checkout span {
+    font-size: 13px;
+    font-weight: 600;
+    display: inline;
+    position: absolute;
+    top: 39px;
+    right: 0;
+    
+}
+
+.main_visual .booking .rooms {
+    width: 540px;
+    height: 100%;
+    /* background-color: #d9bba5; */
+    position: inherit;
+    position: absolute;
+    top: 0;
+    left: 640px;
+}
+
+.main_visual .booking .rooms .inner {
+    width: 540px;
+    height: 57px;
+    display: flex;
+}
+
+.main_visual .booking .rooms p {
+    font-size: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    color: #A68164;
+}
+
+
+.main_visual .booking .rooms .box:nth-child(1) {
+    width: 180px;
+    /* background-color: azure; */
+    height: 100%;
+    margin: 23px 0;
+}
+
+.main_visual .booking .rooms .box:nth-child(1) span {
+    color: rgba(153, 153, 153, 0.6);
+    font-size: 22px;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* .main_visual .booking .rooms .box:nth-child(2) {
+    width: 180px;
+    /* background-color: rgb(88, 126, 126); */
+/*     height: 100%;
+    margin: 23px 0; */
+
+
+/* .main_visual .booking .rooms .box:nth-child(2) .plus   {
+    width: 180px;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    } */
+   */
+  
+/* ----------------------------------------------------------------------------- */
+
+
+.main_visual .booking .rooms .box:nth-child(3) {
+    width: 180px;
+    /* background-color: azure; */
+    height: 100%;
+    margin: 23px 0;
+}
+.main_visual .booking .rooms .box:nth-child(3) .gr  {color: rgba(153, 153, 153, 0.9);}
+
+
+/* .main_visual .booking .rooms .box .plus {
+    margin: 0 30px;
+    border: none;
+    font-size: 22px;
+
+} */
+
+.main_visual .booking .rooms .gr{
+    color: rgba(153, 153, 153, 0.9);
+}
+
+
+.main_visual .booking .rooms .box div {
+    text-align: center;
+}
+
+.main_visual .booking .rooms .box div span {
+    font-size: 22px;
+
+}
+
+
+.main_visual .booking .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 260px;
+    height: 100%;
+    
+
+    /* background-color: aquamarine; */
+}
+
+.main_visual .booking .btn .inner:hover{
+    background-color: #7b5e48;
+}
+
+.main_visual .booking .btn .inner {
+    width: 180px;
+    height: 55px;
+    background-color: #A68164;
+    position: absolute;
+    top: 23px;
+    right: 40px;
+}
+
+.main_visual .booking .btn .inner h3 {
+    color: #fff;
+    text-align: center;
+    line-height: 55px; 
+    font-size: 17px;
+    font-weight: normal;
+}
+
+/* --------------------------☝☝☝☝👉section1☝☝☝☝--------------------------- */
+/*  .section{
+    width: 100%;
+    height: 1866px;
+    position: relative;
+ }   */
+
+/*     .bg{
+    width: 100%;
+    height: 1181px;
+    background-color: #F3F3F3;
+    position: absolute;
+    top: 685px;
+    left: 0
+    ;
+} */
+
+.section01 .inner {
+    width: 1440px;
+    height: 1004px;
+
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+}
+
+.section01 .inner .title {
+    height: 155px;
+    margin-top: 150px;
+    /* background-color: aquamarine; */
+    
+}
+
+.section01 .inner .title h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: 'Perpetua';
+    font-weight: 900;
+}
+
+.section01 .inner .title{
+    transition: 1s;
+}
+
+.section01 .inner .title h3 {
+    margin-bottom: 10px;
+    font-weight: normal; 
+    font-size: 25px;  
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+    
+    font-weight: 500;
+
+}
+
+.section01 .inner .container {
+    width: 1440px;
+    height: 680px;
+    margin: 10px auto;
+    /* background-color: #9b8371; */
+
+}
+
+.section01 .inner .container ul li:hover{
+    box-shadow: 10px 5px 20px 3px rgba(0, 0, 0, 0.1) ;
+    transition: 0.7s;
+
+}
+
+.section01 .inner .container ul li:hover img{
+    transform: scale(1.1);
+    transition: 0.1s;
+    
+    
+}
+
+.section01 .inner .container ul li {
+    width: 464px;
+    height: 680px;
+    
+    /* background-color: rgb(117, 172, 172); */
+    /* border: 1px solid #777; */
+}
+
+.section01 .inner .container ul li .imgbox{
+    width: 100%;
+    height: 410px;
+    overflow: hidden;
+}
+.section01 .inner .container li img {
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
+    display: block;
+    
+    
+}
+
+.section01 .inner .container ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.section01 .inner .container .item .text {
+    width: 464px;
+    height: 270px;
+    padding: 50px 40px;
+    /* margin:50px 40px ; */
+    background-color: rgb(255, 255, 255);
+    border: #BDBDBD solid 1px;
+    border-top: none;
+}
+
+.section01 .inner .container .item .text h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+    font-weight: 800;
+}
+
+.section01 .inner .container .item .text p {
+    font-size: 17px;
+    color: #777;
+    margin-bottom: 10px;
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+    font-weight: 400;
+}
+
+.section01 .inner .container .item .text span {
+    font-size: 17px;
+    color: #777;
+    font-family: 'Abril Fatface', cursive;
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+    font-weight: 500; 
+}
+
+.section01 .inner .container .item .text strong {
+    display: block;
+    margin-top: 49px;
+    font-size: 20px;
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+}
+
+
+/* ------------------✌✌✌✌✌✌section02✌✌✌✌✌✌----------------- */
+
+.section02 .inner {
+    width: 1440px;
+    height: 716px;
+    margin: 0 auto;
+   /*  background-color: #777; */
+}
+
+
+.section02 .inner .title {
+    transition: 1s;}
+
+.section02 .inner .title h1 {
+    font-size: 45px;
+    font-family: 'Perpetua';
+    font-weight: 900;
+}
+
+.section02 .inner .title h2 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 36px;
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+    font-weight: 500;
+
+}
+
+
+.section02 .inner .menu {
+    width: 480px;
+    height: 24px;
+    margin-bottom: 12px;
+}
+
+
+/* -------------hover----------------- */
+.section02 .menu li:after {
+    display:block;
+    content: '';
+    border-bottom: solid 1px #7a7a7a;  
+    padding-bottom: 3px ;
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+
+  
+  .section02 .menu li:hover:after { transform: scaleX(1); }
+  .section02 .menu li:hover { font-style: normal; text-decoration:none; color: #000000; font-weight:bold;}
+/* -------------hover----------------- */
+
+/* ------------------------------------------------ */
+
+/* ------------------------------------------------ */
+
+
+.section02 .inner .menu ul li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 20px;
+    display: inline-block;
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+    /* font-weight: 400; */
+
+}
+
+
+.section02 .inner .item {
+    width: 830px;
+    height: 559px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section02 .inner .item .item1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.section02 .inner .item .item1 .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+   /*  width: 100%;
+    height: 100%; */
+    display: none;}
+
+
+
+
+
+
+
+
+
+.section02 .inner .item .suite {
+    width: 586px;
+    height: 360px;
+    margin-left: 24px;
+}
+
+.section02 .inner .item .suite .text {
+    width: 391px;
+    height: 164px;
+    margin-top: 35px;
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+    
+
+}
+
+.section02 .inner .item .suite .text h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+
+.section02 .inner .item .suite .text h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 500px;
+    font-weight: 300;
+}
+
+.section02 .inner .item .suite .text h6 {
+    margin-top: 57px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* --------------👌👌👌👌👌👌section03👌👌👌👌👌👌------------ */
+
+.section03 .inner {
+    width: 1440px;
+    height: 893px;
+    margin: 0 auto;
+    /* background-color: bisque; */
+}
+
+.section03 .inner .title {
+    width: 512px;
+    height: 179px;
+    margin: 0 auto;
+    /* background-color: coral; */
+    margin-top: 150px;
+    padding-bottom: 35px;
+    text-align: center;
+    position: relative;
+}
+
+.section03 .inner .title h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Perpetua';
+    font-weight: 900;
+}
+
+.section03 .inner .title h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+    font-weight: 400;
+}
+
+.section03 .inner .title p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: Pretendard,'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+.section03 .inner .title img{
+position: absolute;
+bottom: 45px;
+left: 143px;
+}
+
+.section03 .inner .insta {
+    height: 564px;
+    width: 100%;
+   /*  background-color: rgb(158, 111, 49); */
+}
+
+    /* ---------------------------------------- */
+
+  .section03 .inner .insta .first li{ 
+        filter: brightness(1);}
+
+    .section03 .inner .insta .first li:hover img{
+        filter: brightness(0.5); 
+    }
+
+    .section03 .inner .insta .first li:hover p{
+        display: block;
+    }
+
+    .section03 .inner .insta .first a p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #fff;
+        display: none;
+    }
+
+    .section03 .inner .insta .second li:hover p{
+        display: block;
+    }
+
+    .section03 .inner .insta .second a p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #fff;
+        display: none;
+    }
+
+    .section03 .inner .insta .second li{ 
+        filter: brightness(1);}
+
+    .section03 .inner .insta .second li:hover img{
+        filter: brightness(0.5); 
+    }
+
+
+
+.section03 .inner .insta .first {
+    height: 272px;
+    /* background-color: darkolivegreen; */
+}
+
+.section03 .inner .insta .first ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section03 .inner .insta .first ul li {
+    width: 272px;
+    height: 272px;
+    background-color: #fff;
+position: relative;}
+
+.section03 .inner .insta .first ul li img {
+    width: 100%;
+    height: 100%;}
+
+
+.section03 .inner .insta .second {
+    height: 272px;
+    /* background-color: darkolivegreen; */
+    margin-top: 20px;
+}
+
+.section03 .inner .insta .second ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section03 .inner .insta .second ul li {
+    width: 272px;
+    height: 272px;
+    background-color: #fff;}
+
+.section03 .inner .insta .second ul li img {
+    width: 100%;
+    height: 100%;
+object-fit: cover;}
+
+footer .inner{
+    height: 180px;
+    width: 100%;
+    background-color: #de6e6e;
+    background-color: #3F3F3F;
+    color: rgba(255, 255, 255, 0.57);
+}
+
+footer .inner .box1{
+    height: 50px;
+/* background-color: #777; */
+width: 1440px;
+margin: 0 auto;
+line-height: 50px;
+
+}
+
+footer .inner .box1 ul{
+    width: 100%;
+    height: 20px;
+   /*  background-color: aqua; */
+    
+   }
+
+    footer .inner .box1 ul li{
+        font-family: Pretendard,'Noto Sans KR', sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        /* margin-right: 30px; */
+        display: inline-block;
+    }
+
+    footer .inner .box2{
+        font-family: Pretendard,'Noto Sans KR', sans-serif;
+        font-weight: 200;
+        height: 130px;}
+
+        footer .inner .box2 .cont{
+            width: 1440px;
+            height: 100%;
+            margin: 0 auto;
+            padding-top: 25px;
+            padding-bottom: 21px;
+            
+        }
+
+        footer .inner .box2 .cont p:nth-child(2)
+        {margin:15px 0;
+            
+        }
+
+        footer .inner li{
+        display:flex;
+        flex-flow: row nowrap;
+        padding: 0;
+        }
+        
+        footer .box1>ul>li::after{
+            content: "|";
+            float: right;
+            display: block;
+            padding: 0 30px;
+            color: rgba(255, 255, 255, 0.2) ;
+          }
+          
+         footer .box1>ul>li:last-child::after{
+            content: "";
+          }
+        
+       /*  footer .inner li::after{
+            content: "ㅣ";
+            float: center;
+            color: rgba(255, 255, 255, 0.57);
+            margin-right: 30px;}
+
+            
+        footer .inner li:last-child::after{
+        content: "";}
+
+        
+        footer .inner li{  
+        float: left;
+        padding: 0 15px} */
+
+        .box2{
+            border-top: 0.5px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .box2 .cont p{
+            font-size: 15px;
+        }
