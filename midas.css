@@ -81,9 +81,11 @@ li {
 
 body {
     color: #333;
-    line-height: 1;
-
+    line-height: 1; 
+    min-width: 1920px;
+    width: 100%;
 }
+/* 컨테이너 중심크기 까지 보여줄건지, 1920px로 보여줄건지 (모바일안에서) */
 
 .main_visual {
    
@@ -147,9 +149,9 @@ body {
 
 }
 
-.rooms .inner .box .plus{
+/* .rooms .inner .box .plus{
     display: flex;
-}
+} */
 
 
 
@@ -331,7 +333,9 @@ body {
 
 .main_visual .booking .rooms .box div {
     text-align: center;
+    
 }
+
 
 .main_visual .booking .rooms .box div span {
     font-size: 22px;
