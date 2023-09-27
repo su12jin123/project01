@@ -82,7 +82,7 @@ li {
 body {
     color: #333;
     line-height: 1;
-
+    overflow-x: hidden;
 }
 
 .depth01 .rogoimg {
